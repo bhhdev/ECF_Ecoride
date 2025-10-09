@@ -8,11 +8,11 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class PersonalSpaceController extends AbstractController
 {
-    #[Route('/personal/space', name: 'app_personal_space')]
+    #[Route('/espace_perso', name: 'app_personal_space')]
     public function index(): Response
     {
         return $this->render('personal_space/index.html.twig', [
-            'controller_name' => 'PersonalSpaceController',
+            'controller_name' => 'Page espace personnel',
         ]);
     }
 }
