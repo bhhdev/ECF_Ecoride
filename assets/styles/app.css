@@ -78,7 +78,6 @@ h2, h1 /* h1 page historique */ {
 
 .historic-driver-wrapper, .historic-passenger-wrapper /* page historique */ {
     background-color: #CBBBA0;
-    /* height: 70vh; */
     width: 45vw;
     border: 2px solid black;
 }
@@ -89,7 +88,6 @@ h2, h1 /* h1 page historique */ {
 }
 
 .content_ticket-next-ride /* page historique */ {
-    /* height: 22%; */
     width: 100%;
 }
 
@@ -141,13 +139,7 @@ h2, h1 /* h1 page historique */ {
 
 }
 
-.historical-content /* page historique */ {
-    /* height: 68%; */
-
-}
-
 .historical-left /* page historique */ {
-    /* height: 98%; */
     width: 49%;
 }
 .last-ticket /* page historique */ {
@@ -158,7 +150,6 @@ h2, h1 /* h1 page historique */ {
 }
 
 .separateur /* page historique */ {
-    /* height: 94%; */
     width: 1%;
     background-color: black;
     margin-top: 1.7%;
@@ -166,7 +157,6 @@ h2, h1 /* h1 page historique */ {
 }
 
 .historical-right /* page historique */ {
-    /* height: 98%; */
     width: 49%;
 }
 
