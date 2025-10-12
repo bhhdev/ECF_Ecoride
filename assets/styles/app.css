@@ -67,15 +67,78 @@ a.navbar-brand, .nav-item>a {
     right: 7.9%;
 }
 
-h2, .les-depl {
+h2, .les-depl, h1 /* h1 page historique */ {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
 
-h2 {
+h2, h1 /* h1 page historique */ {
     margin-top: 8%;
 }
 
+.historic-driver-wrapper, .historic-passenger /* page historique */ {
+    background-color: #CBBBA0;
+    height: 70vh;
+    width: 45vw;
+    border: 2px solid black;
+}
+
+.title-driver /* page historique */ {
+    height: 5vh;
+    width: 100vw;
+}
+
+.content_ticket-next-ride /* page historique */ {
+    height: 22%;
+    width: 100%;
+}
+
+.ticket-next-ride /* page historique */ {
+    border: 2px solid black;
+    height: 100%;
+    width: 70%;
+}
+
+.text-ticket /* page historique */ {
+        -webkit-text-stroke-width: 0.75px;
+        -webkit-text-stroke-color: #95C11F;
+    color: #346928;
+    margin: none;
+}
+
+.date_ticket-next-driver /* page historique */ {
+    width: 100%;
+}
+
+.infos-ticket /* page historique */ {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infos-ticket2-3 /* page historique */ {
+    width: 96%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.infos-ticket2, .infos-ticket3 {
+    width: 50%;
+}
+
+.infos-veh /* page historique */ {
+    height: 50%;
+}
+
+.infos-price /* page historique */ {
+    height: 50%;
+}
+
+.ticket /* page historique */ {
+    background-color: #34280C;
+    height: 78%;
+    width: 98%;
+    border: 2px solid white;
+
+}
 
 .title-ecoride {
     height: 25vh;

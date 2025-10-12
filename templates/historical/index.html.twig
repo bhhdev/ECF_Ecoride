@@ -8,13 +8,65 @@
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+<div class="d-flex justify-content-center">
+    <h1 class="text-white fw-bold display-6 text-uppercase">historique</h1>
+</div>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code>C:/Users/33750/OneDrive/Bureau/ENVIRONNEMENT/1-WORKSPACE/STUDI/DWWM/ECF_Ecoride/app/src/Controller/HistoricalController.php</code></li>
-        <li>Your template at <code>C:/Users/33750/OneDrive/Bureau/ENVIRONNEMENT/1-WORKSPACE/STUDI/DWWM/ECF_Ecoride/app/templates/historical/index.html.twig</code></li>
-    </ul>
+<div class="d-flex justify-content-around">
+    <div class="historic-driver-wrapper">
+        {# ticket nect ride start #}
+        <div class="d-flex justify-content-center">
+            <p class="title-driver fw-bold fs-3 text-center text-uppercase">chauffeur</p>
+        </div>
+        <div class="content_ticket-next-ride d-flex justify-content-center">
+            <div class="ticket-next-ride">
+                <p class="text-ticket fw-bold fs-6 text-center text-uppercase mb-0">prochain trajet chauffeur</p>
+                <div class="ticket m-auto">
+                    <div class="date_next-ticket-driver">
+                        <p class="infos-ticket mb-0 text-white text-center fs-6 text-uppercase">le . . / . . / . .</p>
+                    </div>
+                    <div class="infos-ticket2-3 d-flex justify-content-start m-aoto">
+                        <div class="infos-ticket2">
+                            <p class="infos-ticket mb-0 text-white text-start fs-6 text-uppercase">h départ</p>
+                            <p class="infos-ticket mb-0 text-white text-start fs-6 text-uppercase">de ........... à .........</p>
+                            <p class="infos-ticket mb-0 text-white text-start fs-6 text-uppercase">nbre de passagers</p>
+                        </div>
+                        <div class="infos-ticket3">
+                            <p class="infos-ticket infos-veh mb-0 text-white text-end fs-6 text-uppercase">véhicule</p>
+                            <p class="infos-ticket infos-price mb-0 text-white text-end fs-6 text-uppercase">prix / place</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {# ticket nect ride end#}
+
+    </div>
+    <div class="historic-driver-wrapper">
+        <div class="d-flex justify-content-center">
+            <p class="title-driver fw-bold fs-3 text-center text-uppercase">chauffeur</p>
+        </div>
+        <div class="content_ticket-next-ride d-flex justify-content-center">
+            <div class="ticket-next-ride">
+                <p class="text-ticket fw-bold fs-6 text-center text-uppercase mb-0">prochain trajet chauffeur</p>
+                <div class="ticket m-auto">
+                    <div class="date_next-ticket-driver">
+                        <p class="infos-ticket mb-0 text-white text-center fs-6 text-uppercase">le . . / . . / . .</p>
+                    </div>
+                    <div class="infos-ticket2-3 d-flex justify-content-start m-aoto">
+                        <div class="infos-ticket2">
+                            <p class="infos-ticket mb-0 text-white text-start fs-6 text-uppercase">h départ</p>
+                            <p class="infos-ticket mb-0 text-white text-start fs-6 text-uppercase">de ........... à .........</p>
+                            <p class="infos-ticket mb-0 text-white text-start fs-6 text-uppercase">nbre de passagers</p>
+                        </div>
+                        <div class="infos-ticket3">
+                            <p class="infos-ticket infos-veh mb-0 text-white text-end fs-6 text-uppercase">véhicule</p>
+                            <p class="infos-ticket infos-price mb-0 text-white text-end fs-6 text-uppercase">prix / place</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 {% endblock %}
